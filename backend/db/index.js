@@ -1,4 +1,5 @@
-const mongoose = require('mongoose')
+import mongoose from "mongoose";
+
 
 mongoose
     .connect('mongodb+srv://user:1234@cluster0.folehlz.mongodb.net/food-ordering?retryWrites=true&w=majority', { useNewUrlParser: true})
@@ -7,4 +8,4 @@ mongoose
     })
 
 const db = mongoose.connection
-module.exports = db
+export default db
