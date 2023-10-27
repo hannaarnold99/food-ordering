@@ -1,13 +1,13 @@
 import path from "path";
 import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
+import db from "./db";
+import productRouter from "./routes/productRouter";
 
-const bodyParser = require("body-parser");
-const cors = require("cors");
-
-const db = require('./db');
 
 const app = express();
-const productRouter = require('./routes/productRouter');
+
 
 var corsOptions = {
     orgin: "https://food-ordering-14x8.onrender.com/"
