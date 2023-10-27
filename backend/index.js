@@ -2,7 +2,7 @@ import path from "path";
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import  db  from "./db/index.js";
+import  { db } from "./db/index.js";
 import  productRouter  from "./routes/productRouter.js";
 
 
