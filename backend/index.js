@@ -8,8 +8,6 @@ import bodyParser from "body-parser";
 
 dotenv.config();
 
-const uri = "mongodb+srv://user:<password>@cluster0.folehlz.mongodb.net/?retryWrites=true&w=majority";
-
 const app = express();
 
 mongoose
