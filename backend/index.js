@@ -2,7 +2,7 @@ import path from "path";
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import  productRouter  from "./routes/productRouter.js";
+import  router  from "./routes/productRouter.js";
 
 
 const app = express();
@@ -29,4 +29,4 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 })
 
-app.use('/api/', productRouter);
+app.use('/api/', router);

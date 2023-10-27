@@ -31,4 +31,5 @@ router.get('/products-by-categories', async(req, res) => {
     }
 })
 
-module.exports = router
+
+export default router;
