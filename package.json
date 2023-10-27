@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm-run-all",
+    "start": "react-scripts start",
     "build": "cd backend && npm install && node index.js && cd .. && npm-run",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
