@@ -19,9 +19,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const __dirname = path.resolve();
 
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "../src")));
 app.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "../public/index.html"))
+  res.sendFile(path.join(__dirname, "../src/App.js"))
 );
 
 const PORT = process.env.PORT || 8080; 
