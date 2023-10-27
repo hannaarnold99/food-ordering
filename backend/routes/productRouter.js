@@ -3,7 +3,6 @@ import Product from "../models/productModel";
 
 const router = express.Router()
 
-const Product = require('../models/productModel')
 
 router.get('/products', async (req, res) => {
     try {
