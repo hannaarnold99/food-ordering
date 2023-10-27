@@ -22,8 +22,8 @@ const Navigation = () => {
             <Header cartCount={amount}/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="https://food-ordering-14x8.onrender.com/menu" element={<Menu/>}/>
-                <Route path="https://food-ordering-14x8.onrender.com/cart" element={<Cart/>}/>
+                <Route path="menu" element={<Menu/>}/>
+                <Route path="cart" element={<Cart/>}/>
         </Routes>
         </BrowserRouter>
     )

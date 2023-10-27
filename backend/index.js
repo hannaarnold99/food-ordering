@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const __dirname = path.resolve();
 app.use("/", router);
-app.use("https://food-ordering-14x8.onrender.com/menu", router);
+app.use("/api/menu", router);
 
 app.use(express.static(path.join(__dirname, "../build")));
 app.get("/", (req, res) =>
