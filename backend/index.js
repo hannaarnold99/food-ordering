@@ -38,6 +38,12 @@ app.get("/", (req, res) =>
 app.get("/menu", (req, res) =>
   res.sendFile(path.join(__dirname, "../build/index.html"))
 );
+app.get("/cart", (req, res) =>
+  res.sendFile(path.join(__dirname, "../build/index.html"))
+);
+app.get("/home", (req, res) =>
+  res.sendFile(path.join(__dirname, "../build/index.html"))
+);
 
 const PORT = process.env.PORT || 8080; 
 app.listen(PORT, () => {
