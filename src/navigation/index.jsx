@@ -22,12 +22,8 @@ const Navigation = () => {
             <Header cartCount={amount}/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/home" element={<Home/>}/>
-                <Route path="/login" element={<Login/>}/>
-                <Route path="/register" element={<Register/>}/>
                 <Route path="/menu" element={<Menu/>}/>
                 <Route path="/cart" element={<Cart/>}/>
-                <Route path="/payment-success" element={<PaymentSuccess/>}/>
         </Routes>
         </BrowserRouter>
     )
