@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "npm-run-all",
-    "build": "cd backend && npm install && node index.js && cd .. && npm run",
+    "build": "cd backend && npm install && node index.js && cd .. && npm-run",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
