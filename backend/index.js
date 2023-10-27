@@ -10,7 +10,7 @@ const app = express();
 const productRouter = require('./routes/productRouter');
 
 var corsOptions = {
-    orgin: "http://localhost:3000"
+    orgin: "https://food-ordering-14x8.onrender.com/"
 }
 
 app.use(cors(corsOptions));
