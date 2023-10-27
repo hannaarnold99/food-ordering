@@ -1,4 +1,5 @@
-const mongoose = require('mongoose')
+import mongoose from "mongoose";
+
 const Schema = mongoose.Schema
 
 const CategorySchema = new Schema (
@@ -7,7 +8,7 @@ const CategorySchema = new Schema (
     }
 )
 
-const ProductSchema = new Schema (
+const productSchema = new Schema (
     {
         name: { type: String, required: true },
         adjective: { type: String, required: true },
